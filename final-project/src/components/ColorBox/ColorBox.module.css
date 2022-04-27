@@ -1,0 +1,29 @@
+.colorBox{
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    z-index: 9999999;
+
+}
+.toggleBtn{
+    float: left;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.optionBox{
+ background-color: #131722;
+ float: left;
+ padding: 10px;
+ border: 3px solid #333;
+}
+.colorItem{
+    width: 30px;
+    height: 30px;
+    background-color: teal;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+
+}

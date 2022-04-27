@@ -1,0 +1,1029 @@
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.carousel-item{
+    -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.scroll{
+    width: 30px;
+    height: 45px;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%)!important;
+  position: absolute!important;
+    cursor: pointer;
+    z-index: 10000000;
+  
+}
+.rounded-pill:hover{
+    border-color: #f25454 !important;
+}
+
+
+.intro-arrow{
+    border-top-right-radius: 3px;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+    border-left: 0 !important;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.fa-chevron-left,.fa-chevron-right{
+    line-height: 1.6 !important;
+    margin-left: 10px;
+}
+
+.intro-arrow.left{
+    top: 50%;
+    color: #fff;
+    background-color: transparent;
+
+}
+.intro-arrow.left:hover{
+    background-color: #fff;
+    color: #f25454;
+}
+.intro-arrow.right:hover{
+    background-color: #fff;
+    color: #f25454;
+}
+.intro-arrow.right{
+    top: 57.5%;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    margin: 0px 5px!important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f25454 !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #f25454 !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+
+
+.home-cap h1{
+
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.home-cap h1::after 
+{
+        content: "";
+        right: 0;
+        top: 0;
+        animation: typing 6s ease-in infinite;   
+    
+}
+
+   
+.layer{
+        width: 100%;
+        height: 100%;
+      
+}
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-social a{
+    padding: 0 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: none;
+
+}
+.navbar-social a:hover{
+    color: #f25454;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+
+.block-settings-wrapper{
+    position: fixed;
+    left: -251px;
+    top: 20%;
+    width: 251px;
+    z-index: 70;
+}
+
+.settings-close{
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    right: -39px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_panel.png);
+    background-color: #1f2528;
+ 
+    border-radius: 0px 2px 2px 0px;
+    text-indent: -9000px;
+}
+
+
+
+
+.scroll:hover{
+    color:#f25454 !important ;
+}
+.scroll::after{
+content: "";
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background-color: white;
+position: absolute;
+left: 50%;
+bottom: 10px;
+transform: translateX(-50%);
+animation: scroll 2s ease-in infinite;
+
+
+
+
+}
+@keyframes scroll{
+    25%{
+        bottom: 80%;
+    }
+    50%{
+        bottom: 75%;
+    }
+    75%{
+        bottom: 50%;
+    }
+    100%{
+        bottom: 1%;
+    }
+}
+/*-----------------------------------------------end-of-header---------------------------------------------*/
+/*-----------------------------------------------about-us-section------------------------------------------*/
+
+.about-title h2{
+    position: relative;
+    clear: both;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: none;
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-title h2::before{
+    content: attr(data-bigletter);
+    position: absolute;
+    font-size: 2em;
+    opacity: .06;
+    top: -0.17em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-transform: uppercase;
+}
+.about-title .about-line{
+    margin: 0 auto 20px;
+    width: 40px;
+    border-color: #000!important;
+    
+   
+    border: 0;
+    border-top: 1px solid #eee;
+    transition: all 1s;
+}
+.about-title:hover .about-line{
+    transform: scale(1.5);
+}
+.about-title p{
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+    margin: 0 0 10px;
+    line-height: 1.75em;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 1.75em;
+    color: #666;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.skill-head{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.skill-title{
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-weight: 600;
+    text-transform: none;
+    font-family: "Poppins", sans-serif;
+}
+.skill-value1{
+    width: 80%;
+    opacity: 0.9;
+    text-align: right;
+    font-weight: 500;
+}
+.skill-value2{
+    width: 95%;
+    opacity: 1;
+    text-align: right;
+    font-weight: 500;
+}
+.skill-value3{
+    width: 85%;
+    opacity: 1;
+    text-align: right;
+    font-weight: 500;
+}
+.skill-value4{
+    width: 70%;
+    opacity: 1;
+    text-align: right;
+    font-weight: 500;
+}
+.progress{
+    height: 4px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+/*-----------------------------------------------end-of-about-section--------------------------------------*/
+/*----------------------------------------------------------------------Team-section----------------------------------------------------------*/
+.team-card{
+    position: relative;
+    background-color: #fff;
+    transition: all 3s;
+    overflow: hidden;
+
+}
+.team-card:hover img{
+    transform: scale(1.12);
+}
+.team-img{
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+.team-img img{
+    width: 100%;
+}
+.team-layer{
+   background-color:rgba(242, 84, 84, 0.85);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: 0 auto;
+   border-radius: 3px;
+   text-align: center;
+   opacity: 0;
+   transform: translateY(10px);
+   
+   transition: all 0.3s;
+
+  
+}
+.team-card:hover .team-layer{
+    opacity: 1;
+    transform: translateY(0);
+}
+.team-card:hover .team-icons{
+    top: 50%!important;
+    transform: translateY(-50%);
+}
+.team-icons{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-icons a{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 12px px;
+    color: #fff;
+   
+    transition: all 0.3s;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.team-title{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.team-title:hover .title{
+    color: #f25454;
+}
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 20px;
+}
+.team-title .term{
+    color:  #666;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+/*---------------------------------------------------------------end-of-team-section----------------------------------------------------------*/
+#projects h3{
+    line-height: 50px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 32px;
+    color: #282828;
+    font-family: "Poppins", sans-serif;
+}
+.btn.btn-default{
+    background-color: #f25454!important;
+    color: #fff!important;
+
+}
+.btn.btn-default:hover{
+    background-color: #f38383!important;
+}
+.btn{
+    border-radius: 3px;
+    padding: 15px 28px;
+    line-height: 1;
+    font-weight: 700;
+    border-width: 0;
+}
+
+/*---------------------------------------------------------------end-of-Projects----------------------------------------------------------*/
+
+div.bg-grey{
+    background-color: #fafafa;
+}
+.service-card{
+    position: relative;
+    transition: all 2s;
+}
+.service-card a i{
+    color: #f25454!important;
+    position: relative;
+    float: left;
+    font-size: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: default;
+}
+.service-content{
+    position: relative;
+    display: block;
+    width: calc(100% - 52px);
+}
+.service-content h3{
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 32px;
+    color: #282828;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.service-content p{
+    margin-bottom: 0;
+    color: #666;
+    margin: 0 0 10px;
+    margin-left: 60px;
+    font-family: "Poppins", sans-serif;
+}
+.service-card:hover .service-content h3{
+    color: #f25454;
+ 
+}
+.empty{
+    clear: both;
+    height: 30px;
+}
+/*---------------------------------------------------------------end-of-services----------------------------------------------------------*/
+.carousel .carousel-indicators button.blog1{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-2.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.active{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-1.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+  
+}
+.carousel .carousel-indicators button.blog2{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-3.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog3{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-4.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog4{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-5.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog5{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-6.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog6{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-7.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog7{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-8.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.carousel .carousel-indicators button.blog8{
+    width: 300px!important;
+    height: 100px!important;
+    background-image: url(../images/client-9.png);
+    border-radius: 50%!important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.single-box p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+    align-items: center;
+    color: #666;
+
+}
+
+/*-----------------------------------------------------end of blog-----------------------------------------------------------*/
+.contact-info h3{
+    margin: 0 0 30px 0;
+    font-size: 32px;
+    line-height: 32px;
+    color: #282828;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.lowercase{
+    text-transform: none;
+    line-height: 50px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+}
+.contact-content{    clear: both;
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;}
+
+
+.contact-content a i{
+    color: #f25454;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-right: 20px;
+    text-align: center;
+    cursor: default;
+
+}
+.contact-text{
+    position: relative;
+    display: block;
+    width: calc(100% - 60px);
+}
+.contact-text h4{
+    margin: 0;
+    font-size: 18px;
+    transition: all 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+.contact-content:hover h4{
+    color: #f25454;
+    font-family: "Poppins", sans-serif;
+}
+.hello:hover {
+    color: #f25454;
+}
+
+
+input{
+    line-height: 1;
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+/*--------------------------------------------------end of contact---------------------------------------------------*/
+
+footer{
+    position: relative;
+    clear: both;
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+    color: #b0b0b0;
+}
+.back-to-top{
+    background: rgba(242, 84, 84, 0.5);
+}
+.fa-chevron-up:before {
+    top: 12px;
+    position: absolute;
+    left: 17px;
+}
+footer .back-to-top{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer !important;
+}
+.back-to-top i{
+    color: #fff;
+    font-weight: 900;
+}
+.back-to-top:hover{
+    background-color: #f25454;
+}
+.upper-footer{
+    position: relative;
+    clear: both;
+    background: #222;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../images/dotted-map.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    
+}
+.tags{
+    margin-top: 16px;
+    overflow: hidden;
+
+}
+.tag{
+    border: 1px solid #b0b0b0;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 2px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #b0b0b0!important;
+    transition: all 1s;
+    font-family: "Poppins", sans-serif;
+}
+.tag:hover{
+    border:1px solid #f25454!important;
+    color: #f25454!important;
+}
+.upper-info h5{
+color: #fff;
+font-family: "Poppins", sans-serif;
+}
+
+.lower-footer{
+    color: #b0b0b0!important;
+    position: relative;
+    clear: both;
+    background: #1a1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lower-icons{
+    cursor: default;
+    line-height: 1;
+}
+.lower-icons a{
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.lower-icons a:hover{
+    color: #f25454;
+}
+.copyright{
+    clear: both;
+    margin: 0;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right; 
+    font-family: "Poppins", sans-serif;
+
+}
+.copyright a{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.copyright a:hover{
+    color: #f25454;
+}
+/*------------------------------end of the footer-------------------------------------------------------*/
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .scroll{
+      display: block;
+    }
+    .carousel-caption h1{
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+    }
+    .block-settings-wrapper{
+        position: fixed;
+        left: -251px;
+        top: 20%;
+        width: 251px;
+        z-index: 70;
+    }
+    
+}
+@media screen and (max-width:992x) and (min-width:768px) {
+    .scroll{
+       display: block;
+    }
+    .carousel-caption h1{
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+    }
+    .block-settings-wrapper{
+        position: fixed;
+        left: -251px;
+        top: 20%;
+        width: 251px;
+        z-index: 70;
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .scroll{
+       display: none;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+    }
+    .block-settings-wrapper{
+        position: fixed;
+        left: -251px;
+        top: 20%;
+        width: 251px;
+        z-index: 0;
+        display: none;
+    }
+    .lower-icons{
+        margin-left: 150px;
+        padding-bottom: 10px;
+
+    }
+    .copyright{
+        margin-right: 165px;
+    }
+
+
+    .carousel .carousel-indicators button.blog1{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-2.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.active{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-1.png);
+            border-radius: 50%!important;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+      
+    }
+    .carousel .carousel-indicators button.blog2{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-3.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog3{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-4.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog4{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-5.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog5{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-6.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog6{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-7.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog7{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-8.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog8{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-9.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+}@media screen and (max-width:600px){
+    .scroll{
+       display: none;
+    }
+    .carousel-caption h1{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+    }
+    .block-settings-wrapper{
+        position: fixed;
+        left: -251px;
+        top: 20%;
+        width: 251px;
+        z-index: 0;
+        display: none;
+       
+       
+    }
+    .lower-icons{
+        margin-left: 150px;
+        padding-bottom: 10px;
+        
+
+    }
+    .copyright{
+        margin-right: 165px;
+    }
+
+    .carousel .carousel-indicators button.blog1{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-2.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.active{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-1.png);
+            border-radius: 50%!important;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+      
+    }
+    .carousel .carousel-indicators button.blog2{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-3.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog3{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-4.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog4{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-5.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog5{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-6.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog6{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-7.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog7{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-8.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    .carousel .carousel-indicators button.blog8{
+        width: 900px!important;
+        height: 100px!important;
+        background-image: url(../images/client-9.png);
+        border-radius: 50%!important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+}

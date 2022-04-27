@@ -1,0 +1,386 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link:hover{
+background-color: #8e7754!important;
+}
+.nav-link{
+    color: #fff!important;
+}
+.logo{
+    width: 15%;
+}
+.home{
+   
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/drew-coffman-1872.jpg);
+    
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+.home-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  
+    color: #fff;
+    
+    text-transform: capitalize;
+
+}
+.home-content p{
+    margin-top: 40px;
+    color: #ccc;
+    font-size: 24px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    margin-bottom: 30px;
+    padding-bottom:15px;
+
+}
+.home-content h1{
+    
+    font-size: 50px;
+    font-family: Alegreya,serif,monospace;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: 900!important;
+    font-size: 70px
+
+
+}
+.home-content button {
+    padding: 15px 25px 15px 25px;
+ 
+    font-size: 15px;
+    border-radius: 5px ;
+    text-align:center;
+    margin-right: 10px;
+    color: #fff;
+
+}
+.btn1{background-color: #8e7754;
+     
+}
+.btn1:hover{background-color: white;
+    color: black;
+     
+}
+.btn-btn2{background:  transparent;
+border: #fff;
+border-width: 2px;
+border-style: solid ;
+    
+}
+.btn-btn2:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.clearfix {
+    clear: both;
+  }
+  /*-----------------------------------------------------*/
+.section2{
+   
+    width: 100%;
+    padding: 20px 50px;
+
+}
+.ex1{ float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.ex1 p{
+    color: #686868;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+
+}
+.ex1 h2{
+    margin-bottom: 20px;
+}
+.ex3{
+    width: 50%;
+    float: left;
+
+}
+.ex3 img{
+width: 100%;
+padding-left: 90px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 150px;
+}
+.ex1 ul{
+    text-align: left;
+}
+
+.clearfix{
+    clear: both;
+}
+.section1{
+
+    height: auto;
+    padding: 40px 0;
+    display: block;
+}
+*{
+padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.item1{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.item2{
+    display: inline-block;
+    width: 50%;
+
+}
+.item2 img{
+    width: 80%;
+    
+}
+.item1 p{
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+}
+.item1 h2{
+    padding-top: 50px;
+    color: #303030;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.clear-fix {
+    clear: both;
+  }
+.group{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.group h2{
+    padding-bottom: 30px;
+}
+.group p{
+    padding-bottom: 15px;
+}
+.parent{
+    display: block;
+    text-align: center;
+}
+.pics{
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+.pics h3{
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+.pics p{
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+
+.pics img{
+    width: 100%;
+}
+
+.lyrics{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 10px;
+    
+}
+.lyrics h2{
+    color: #303030;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lyrics p{
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    padding-left: 10px;
+}
+
+.contact{
+    text-align: left;
+}
+.map{
+float: right;
+width: 50%;
+padding-top: 100px;
+}
+
+.whole-div{
+    background-color: #403d38;
+    display: inline-block;
+    width: 100%;
+    margin:50px 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.sec1{
+    
+    width: 24%;
+    display: inline-block;
+    padding-left: 40px;
+
+    
+}
+.sec1 p{
+    font-size: 18px;
+    color: #969696;
+    font-size: 19;
+    line-height: 1.86em;
+}
+.sec1 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.sec2{
+    
+    width: 24%;
+    display: inline-block;
+
+}
+.sec2 p{
+    border-bottom: 1px
+ solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    color: #969696;
+    font-size: 19;
+    line-height: 1.86em;
+}
+.sec2 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.sec3{
+   
+    width: 24%;
+    display: inline-block;
+    padding-top: 30px;
+
+}
+.sec3 p{
+    border-bottom: 1px
+     solid #303030;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: block;
+        display: flex;
+        color: #969696;
+        font-size: 19;
+        line-height: 1.86em;
+}
+.sec3 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.sec4{
+  
+    width: 24%;
+    display: inline-block;
+
+}
+.maryam h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.sec4 p{
+    border-bottom: 1px
+     solid #303030;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        display: block;
+        display: flex;
+        color: #969696;
+        font-size: 19;
+        line-height: 1.86em;
+}
+.sec4 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+
+.picture{
+    background-color:  rgb(39, 38, 38);
+    text-align: center;
+    width: 100%;
+    padding-left:50px ;
+}
+.picture p{
+    font-size: 14px;
+    color: #969696;
+
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .pics{
+        width:33.333%;
+    }
+    
+}
+@media screen and (max-width:992x) and (min-width:768px) {
+    .pics{
+        width:50%;
+    }
+    
+}@media screen and (max-width:768px) and (min-width:600px) {
+    .pics{
+        width:100%;
+    }
+    
+}@media screen and (max-width:600px){
+    .pics{
+        width:100%;
+    }
+    
+}

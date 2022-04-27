@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\Start React"
+		},
+		{
+			"path": "..\\react\\app2"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weather"
+	}
+}
